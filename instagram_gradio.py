@@ -6,7 +6,7 @@ import sys
 from io import StringIO
 import uuid
 import datetime
-from instagram_scraper2 import scrape_instagram, setup_directories, get_media_info
+from instagram_scraper import scrape_instagram, setup_directories, get_media_info
 import time
 
 def zip_directory(directory_path):
