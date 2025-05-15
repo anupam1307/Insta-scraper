@@ -1,6 +1,8 @@
 # Instagram Scraper
 A Python tool to scrape Instagram posts and reels, either by URL or account name, using gallery-dl. The tool saves media files, CSV metadata, and JSON metadata in an organized directory structure. It includes a Gradio-based web interface for user-friendly interaction.
 
+![Gradio](Images/Instagram.png)
+
 ## Features
 * Scrape by URL: Download individual Instagram posts or reels using their URLs.
 * Scrape by Account: Download posts or reels from a specified Instagram account, with options to select a range or all items.

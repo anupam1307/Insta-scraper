@@ -147,8 +147,13 @@ def scrape_account(account_name, post_range, all_items, media_type):
 def create_interface():
     """Create the Gradio interface."""
     with gr.Blocks(title="Instagram Scraper") as demo:
-        gr.Markdown("# Instagram Scraper")
-        gr.Markdown("Download Instagram posts or reels by URL or account name. The scraped data (media, CSV, and JSON metadata) will be provided as a zip file.")
+        gr.Markdown(
+         """  
+        <h2 style="text-align: center; font-size: 60px; font-weight: bold;">
+        Instagram Scraper
+        </h2>
+        """
+        )    
         
         with gr.Tabs():
             # Posts Tab
@@ -209,8 +214,6 @@ def create_interface():
                     outputs=[reel_output]
                 )
         
-        gr.Markdown("**Note**: Ensure `gallery-dl` is installed (`pip install gallery-dl`) and a valid `gallery-dl.conf` file is present. The zip file contains only the current scrape’s media files, CSV metadata, and JSON metadata.")
-
     return demo
 
 if __name__ == "__main__":
