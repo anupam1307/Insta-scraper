@@ -5,8 +5,6 @@ A Python tool to scrape Instagram posts and reels, either by URL or account name
 [![Last Commit](https://img.shields.io/github/last-commit/anupam1307/Insta-scraper?color=green)](https://github.com/anupam1307/Insta-scraper/commits)
 [![Gallery-dl](https://img.shields.io/badge/Gallery--dl-Docs-blue)](https://github.com/mikf/gallery-dl)
 [![Gradio](https://img.shields.io/badge/Gradio-Docs-FF6C37?style=flat&logo=gradio)](https://gradio.app/)
-[![YT Dlp](https://img.shields.io/badge/Status-In%20Development-yellow)](https://)
-
 
 ![Gradio](Images/Instagram.png)
 
@@ -61,15 +59,14 @@ pip install gallery-dl pandas tqdm gradio
 }
 ```
 
-
-
-
-Usage
-Command-Line Usage (instagram_scraper.py)
+# Usage
+## Command-Line Usage (instagram_scraper.py)
 Run the script directly to scrape media:
 
-Scrape a single post or reel by URL:
+* Scrape a single post or reel by URL:
+```
 python instagram_scraper.py
+```
 
 Example in code:
 from instagram_scraper import scrape_instagram
