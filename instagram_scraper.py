@@ -432,7 +432,7 @@ if __name__ == "__main__":
     scrape_instagram(input_data="https://www.instagram.com/p/DIyBHpaJHvZ/", is_url=True)
     
     # Account-based scraping for all posts and reels
-    # scrape_instagram(search="dhwanit.vsit", is_url=False, all_posts=True)
+    scrape_instagram(search="dhwanit.vsit", is_url=False, all_posts=True)
     
     # Account-based scraping with range mode (e.g., posts/reels 1-2)
     scrape_instagram(search="dhwanit.vsit", is_url=False, post_range="1-3")
