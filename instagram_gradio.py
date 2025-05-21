@@ -161,12 +161,12 @@ def create_interface():
                 gr.Markdown("### Download Instagram Posts")
                 
                 with gr.Group():
-                    gr.Markdown("#### Option 1: Download by Post URL")
+                    gr.Markdown("#### Download by Post URL")
                     post_url = gr.Textbox(label="Post URL", placeholder="e.g., https://www.instagram.com/p/ABC123/")
                     post_url_button = gr.Button("Download Post by URL")
                 
                 with gr.Group():
-                    gr.Markdown("#### Option 2: Download by Account Name")
+                    gr.Markdown("#### Download by Account Name")
                     post_account = gr.Textbox(label="Account Name", placeholder="e.g., username or https://www.instagram.com/username/")
                     post_range = gr.Textbox(label="Post Range (e.g., 1 or 1-5)", placeholder="Leave blank if downloading all posts")
                     post_all = gr.Checkbox(label="Download all posts")
@@ -190,12 +190,12 @@ def create_interface():
                 gr.Markdown("### Download Instagram Reels")
                 
                 with gr.Group():
-                    gr.Markdown("#### Option 1: Download by Reel URL")
+                    gr.Markdown("#### Download by Reel URL")
                     reel_url = gr.Textbox(label="Reel URL", placeholder="e.g., https://www.instagram.com/reel/DEF456/")
                     reel_url_button = gr.Button("Download Reel by URL")
                 
                 with gr.Group():
-                    gr.Markdown("#### Option 2: Download by Account Name")
+                    gr.Markdown("#### Download by Account Name")
                     reel_account = gr.Textbox(label="Account Name", placeholder="e.g., username or https://www.instagram.com/username/")
                     reel_range = gr.Textbox(label="Reel Range (e.g., 1 or 1-5)", placeholder="Leave blank if downloading all reels")
                     reel_all = gr.Checkbox(label="Download all reels")

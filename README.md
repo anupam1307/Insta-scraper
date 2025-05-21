@@ -1,10 +1,18 @@
-# Instagram Scraper
+<!-- # Instagram Scraper -->
+
+<div style="text-align: center;">
+    <h1><strong>Instagram Scraper</strong></h1>
+</div>
 A Python tool to scrape Instagram posts and reels, either by URL or account name, using gallery-dl. The tool saves media files, CSV metadata, and JSON metadata in an organized directory structure. It includes a Gradio-based web interface for user-friendly interaction.
+
 
 [![Github](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github)](https://github.com/anupam1307/Insta-scraper)
 [![Last Commit](https://img.shields.io/github/last-commit/anupam1307/Insta-scraper?color=green)](https://github.com/anupam1307/Insta-scraper/commits)
 [![Gallery-dl](https://img.shields.io/badge/Gallery--dl-Docs-blue)](https://github.com/mikf/gallery-dl)
 [![Gradio](https://img.shields.io/badge/Gradio-Docs-FF6C37?style=flat&logo=gradio)](https://gradio.app/)
+[![GetCookies.txt](https://img.shields.io/badge/GetCookies.txt-Chrome%20Extension-4285F4?style=flat&logo=google-chrome)](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc)
+
+# Screenshot
 
 ![Gradio](Images/Instagram.png)
 
