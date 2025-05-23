@@ -2,4 +2,4 @@ env
 __pycache__
 date*
 scrape*
-instagram_cookies
+instagram_cookies*
